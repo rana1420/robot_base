@@ -3,9 +3,9 @@ _I am doing this project to control a robot_
 
 _This second task is: designing a control panel to move the robot base that contains four directions and a stop button_
 
-Tools used for this:
-1. Notepad++
-2. Xampp
+_Tools used for this:_
+1. _Notepad++_
+2. _Xampp_
 
 
 ## _content :_
