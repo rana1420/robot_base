@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+ background-image: url('https://static.vecteezy.com/system/resources/thumbnails/000/097/736/small/abstract-robot-background-vector.jpg');
+}
+a:link, a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+div {
+  width: 100px;
+  height: 50px;
+  background-color:#04AA6D;
+  font-weight: bold;
+  font-family: "Sofia", sans-serif;
+  position: relative;
+  animation: mymove 1s  ;
+  animation-fill-mode: forwards;
+}
+div.a{
+text-align:center;
+
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 120px;}
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .div {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .div{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<br><br><br><br><br><br><br>
+<a href="home.html">
+<div id="div1" style="text-align:center;font-size:50px;">R</div>
+<div id="div2" style="text-align:center;font-size:50px;text-decoration: line-through;">O</div>
+<div id="div3" style="text-align:center;font-size:50px;">B</div>
+<div id="div4" style="text-align:center;font-size:50px;text-decoration: line-through;">O</div>
+<div id="div5" style="text-align:center;font-size:50px;">T</div>
+</a>
+</body>
+</html>

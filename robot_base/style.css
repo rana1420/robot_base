@@ -1,0 +1,88 @@
+
+html,body {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/000/097/736/small/abstract-robot-background-vector.jpg');
+ 
+}
+.border{
+ background-color: #ffff;
+  width: 300px;
+  border: 20px solid green;
+  padding: 50px;
+}
+.slidecontainer {
+  width: 100%;
+ 
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 10px;
+  background: #d3d3d3;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+     width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 23px solid #222;
+}
+
+.slider::-moz-range-thumb {
+ 
+  background: #04AA6D;
+  cursor: pointer;
+}
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
+  margin-left: 50px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+/* @media only screen and (max-width:800px) { */
+  /* For tablets: */
+  /* .div { */
+    /* width: 80%; */
+    /* padding: 0; */
+  /* } */
+/* } */
+/* @media only screen and (max-width:500px) { */
+  /* For mobile phones: */
+  /* .div{ */
+    /* width: 100%; */
+  /* } */
+/* } */
+/* * { */
+  /* box-sizing: border-box; */
+/* } */

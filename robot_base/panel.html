@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+body{
+ background-image: url('https://static.vecteezy.com/system/resources/thumbnails/000/097/736/small/abstract-robot-background-vector.jpg');
+}
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .bb {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .bb{
+    width: 100%;
+  }
+}
+
+</style>
+<body>
+<form action="page2.php" method="post">
+<div  class="bb" align="center" >
+<br><br>
+  <button name="button" value="forword">FORWORD &#8657;</button><br><br>
+  <button name="button" value="left" >&#8656; LEFT</button>
+  <button name="button" value="Right">RIGHT &#8658;</button><br><br>
+  <button name="button" value="backword">BACKWORD &#8659;</button><br><br>
+  <button name="button" value="stop" style="background-color:red;">STOP</button>
+</div>
+</form>
+</body>
+</html>

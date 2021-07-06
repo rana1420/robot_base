@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- creat form to connectin between htmi and php -->
+<form action="page1.php" method="post">
+
+<div class="border" align="center">
+
+<!-- create slider for control arm -->
+<div class="slidecontainer">
+  
+  <p style="font-size:22px;" > Engine1: <input type="range" min="0" max="180" value="90" class="slider" id="myRange1" name="myRange1" ></p>
+  <p style="color:red;">Value:<span id="demo1"></span></p>
+  
+  <p style="font-size:22px;" > Engine2: <input type="range" min="0" max="180" value="90" class="slider" id="myRange2" name="myRange2" ></p>
+  <p style="color:red;">Value:<span id="demo2"></span></p>
+  
+  <p style="font-size:22px;" > Engine3: <input type="range" min="0" max="180" value="90" class="slider" id="myRange3" name="myRange3" ></p>
+  <p style="color:red;" >Value:<span id="demo3"></span></p>
+  
+  <p style="font-size:22px;" > Engine4: <input type="range" min="0" max="180" value="90" class="slider" id="myRange4" name="myRange4" ></p>
+  <p style="color:red;" >Value:<span id="demo4"></span></p>
+  
+  <p style="font-size:22px;" > Engine5: <input type="range" min="0" max="180" value="90" class="slider" id="myRange5" name="myRange5" ></p>
+  <p style="color:red;" >Value:<span id="demo5"></span></p>
+  
+  <p style="font-size:22px;" > Engine6: <input type="range" min="0" max="180" value="90" class="slider" id="myRange6" name="myRange6" ></p>
+  <p style="color:red;" >Value:<span id="demo6"></span></p>
+
+</div>
+
+<div class="btn-group" >
+  
+  <button value="RUN" name="RUN" >RUN</button>
+ 
+  <button value="save" name="save">SAVE</button>
+  
+  </form>
+
+</div>
+
+</div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
