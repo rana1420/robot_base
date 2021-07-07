@@ -1,7 +1,7 @@
 ## **Robot_Base**
 _I am doing this project to control a robot_
 
-** _This second task**: is designing a control panel to move the robot base that contains four directions and a stop button_
+_**This second task** : is designing a control panel to move the robot base that contains four directions and a stop button_
 
 _Tools used for this:_
 1. _Notepad++_
