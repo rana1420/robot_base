@@ -10,6 +10,6 @@ _Tools used for this:_
 
 ## _content :_
 
-* robot_base : file of all code in this project 
-* db_arm_sql : export of data
-* demo:This video explains how the interfaces work on the mobile web view and display the data stored in the database
+* **robot_base :** file of all code in this project 
+* **db_arm_sql :** export of data
+* **demo:** This video explains how the interfaces work on the mobile web view and display the data stored in the database
